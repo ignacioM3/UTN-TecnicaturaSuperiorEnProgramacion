@@ -21,8 +21,8 @@ int main()
 
         cout << "Ingrese la gravedad (L, M, G):" << endl;
         cin >> gravedad;
-        switch (gravedad)
-        {
+
+        switch (gravedad){ 
         case 'L':
             valorL += valor;
             break;
@@ -35,7 +35,7 @@ int main()
             break;
         }
 
-        if((tipo == 3 || tipo == 4) && gravedad == 'G'){
+        if ((tipo == 3 || tipo == 4) && gravedad == 'G'){
             clausurar++;
         }
     }
@@ -44,7 +44,7 @@ int main()
     cout << "El valor de la infraccion M:" << valorM << endl;
     cout << "El valor de la infraccion G:" << valorG << endl;
 
-    if(clausurar > 3){
+    if (clausurar > 3){
         cout << "Clausarar fabrica" << endl;
     }
 

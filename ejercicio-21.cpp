@@ -15,6 +15,7 @@ int main(){
         system("puase");
         return 0;
     }
+    
     valorMayor = n;
     valorMenor = n;
     posicionMayor = ciclos;

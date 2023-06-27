@@ -8,8 +8,7 @@ int main()
 
     cout << "Ingrese numero de factura(numero negativo para finalizar): " << endl;
     cin >> nroFactura;
-    while (nroFactura >= 1)
-    {
+    while (nroFactura >= 1){
         cout << "Ingrese la fecha(AAAAMMDD): " << endl;
         cin >> fecha;
         cout << "Monto total facturado: " << endl;

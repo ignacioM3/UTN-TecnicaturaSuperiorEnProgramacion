@@ -8,12 +8,12 @@ int main()
     cout << "ingrese un numero del 1 al 3999: ";
     cin >> num;
 
-    //Evitamos que el usuario ponga un numero mayo a 3999
-    if(num > 3999){
+    //Evitamos que el usuario ponga un valor invalido
+    if(num < 1 && num > 3999){
         cout << "Valor invalido" << endl ;
         system("pause");
         return 0;
-        
+
     }
     // obtener cada cifra del número
     miles = num / 1000;
